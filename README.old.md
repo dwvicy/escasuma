@@ -1,2 +1,0 @@
-# escasuma
-myntra hack weforshe
