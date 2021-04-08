@@ -17,8 +17,13 @@
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "format": "prettier --write \"**/*.+(js|jsx|json|yml|yaml|css|md|vue)\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint && npm run format"
+    }
   },
   "eslintConfig": {
     "extends": [
@@ -43,6 +48,7 @@
     "autoprefixer": "^9.8.6",
     "eslint": "^7.20.0",
     "eslint-config-prettier": "^8.1.0",
+    "husky": "^6.0.0",
     "postcss": "^7.0.35",
     "prettier": "^2.2.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.0"
