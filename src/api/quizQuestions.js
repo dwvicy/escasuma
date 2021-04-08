@@ -1,22 +1,22 @@
 var quizQuestions = [
   {
-    question: "What franchise would you rather play a game from?",
+    question: "Which Game of Thrones Character do you love the most?",
     answers: [
       {
         type: "Microsoft",
-        content: "Halo",
+        content: "Sansa Stark",
       },
       {
         type: "Nintendo",
-        content: "Pokemon",
+        content: "Khaleesi",
       },
       {
         type: "Sony",
-        content: "Uncharted",
+        content: "Jon Snow",
       },
       {
         type: "Myntra",
-        content: "Purse",
+        content: "Red Woman",
       },
     ],
   },
