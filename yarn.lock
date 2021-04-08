@@ -4759,7 +4759,7 @@
   "resolved" "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.2.0.tgz"
   "version" "4.2.0"
 
-"eslint-plugin-react@^7.20.3", "eslint-plugin-react@^7.21.5":
+"eslint-plugin-react@^7.20.3", "eslint-plugin-react@^7.21.5", "eslint-plugin-react@^7.22.0":
   "integrity" "sha512-p30tuX3VS+NWv9nQot9xIGAHBXR0+xJVaZriEsHoJrASGCJZDJ8JLNM0YqKqI0AKm6Uxaa1VUHoNEibxRCMQHA=="
   "resolved" "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.22.0.tgz"
   "version" "7.22.0"
