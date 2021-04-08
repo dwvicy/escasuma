@@ -1,9 +1,8 @@
-import "./App.css"
-import Quiz from "./components/Quiz"
-// import Landing from "./pages/Landing"
-import quizQuestions from "./api/quizQuestions"
-// import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
 import React, { Component } from "react"
+import quizQuestions from "./api/quizQuestions"
+import Quiz from "./components/Quiz"
+import Result from "./components/Result"
+import "./App.css"
 
 class App extends Component {
   constructor(props) {
@@ -18,18 +17,20 @@ class App extends Component {
       answersCount: {},
       result: "",
     }
+
     this.handleAnswerSelected = this.handleAnswerSelected.bind(this)
   }
+
   componentDidMount() {
     const shuffledAnswerOptions = quizQuestions.map((question) =>
       this.shuffleArray(question.answers)
     )
-
     this.setState({
       question: quizQuestions[0].question,
       answerOptions: shuffledAnswerOptions[0],
     })
   }
+
   shuffleArray(array) {
     var currentIndex = array.length,
       temporaryValue,
@@ -52,10 +53,11 @@ class App extends Component {
 
   handleAnswerSelected(event) {
     this.setUserAnswer(event.currentTarget.value)
+
     if (this.state.questionId < quizQuestions.length) {
-      setTimeout(() => this.setResults(this.getResults()), 300)
+      setTimeout(() => this.setNextQuestion(), 300)
     } else {
-      // do nothing for now
+      setTimeout(() => this.setResults(this.getResults()), 300)
     }
   }
 
@@ -90,6 +92,7 @@ class App extends Component {
 
     return answersCountKeys.filter((key) => answersCount[key] === maxAnswerCount)
   }
+
   setResults(result) {
     if (result.length === 1) {
       this.setState({ result: result[0] })
@@ -98,21 +101,35 @@ class App extends Component {
     }
   }
 
+  renderQuiz() {
+    return (
+      <Quiz
+        answer={this.state.answer}
+        answerOptions={this.state.answerOptions}
+        questionId={this.state.questionId}
+        question={this.state.question}
+        questionTotal={quizQuestions.length}
+        onAnswerSelected={this.handleAnswerSelected}
+      />
+    )
+  }
+
+  renderResult() {
+    return <Result quizResult={this.state.result} />
+  }
+
   render() {
     return (
       <div className="App">
         <div className="App-header">
-          {/* <img src={logo} className="App-logo" alt="logo" /> */}
-          <h2>React Quiz</h2>
+          <img
+            src="https://i.imgur.com/VDm5VQd.png"
+            className="App-logo"
+            alt="logo"
+          />
+          <h2>Escasuma Personality Quiz</h2>
         </div>
-        <Quiz
-          answer={this.state.answer}
-          answerOptions={this.state.answerOptions}
-          questionId={this.state.questionId}
-          question={this.state.question}
-          questionTotal={quizQuestions.length}
-          onAnswerSelected={this.handleAnswerSelected}
-        />
+        {this.state.result ? this.renderResult() : this.renderQuiz()}
       </div>
     )
   }
