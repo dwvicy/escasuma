@@ -17,13 +17,14 @@ code {
 
 * {
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
   margin: 0;
   padding: 0;
   background: #eee;
-  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .container {

@@ -127,7 +127,7 @@ class Quizler extends Component {
             className="App-logo"
             alt="logo"
           />
-          <h2>Escasuma Personality Quiz</h2>
+          <h2 className="lmao">Escasuma Personality Quiz</h2>
         </div>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
       </div>
