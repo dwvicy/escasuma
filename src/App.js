@@ -8,7 +8,6 @@ function App() {
   return (
     <div>
       <Router>
-        <h1>Adopt Me!</h1>
         <Switch>
           <Route path="/quiz">
             <Quizler />

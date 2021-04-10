@@ -1,5 +1,46 @@
 body {
   font-family: "Playfair Display", serif;
+  background-image: url("https://i.imgur.com/DyYEFRf.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #e1e2ef;
+}
+
+h1 {
+  margin-left: 1em;
+}
+
+.p2b {
+  text-align: center;
+  margin: auto;
+  padding: 50px 0 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.inline {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  flex-wrap: wrap;
+  font-size: large;
+  color: #000;
+  font-weight: 900;
+}
+
+.containz {
+  width: auto;
+  background-color: #a9d3ff;
+  border-radius: 5px;
+  margin: auto;
+  padding: 20px;
+}
+
+.h2b {
+  text-align: center;
+  margin: auto;
+  padding-top: 150px;
+  font-size: 5em;
 }
 .App-logo {
   height: 80px;
