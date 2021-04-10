@@ -1,7 +1,6 @@
 body {
-  font-family: "Playfair Display", serif;
-  background-image: url("https://i.imgur.com/DyYEFRf.gif");
-  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+  background-image: url("https://i.imgur.com/7C3lNDt.jpg");
   background-size: cover;
   color: #e1e2ef;
 }
@@ -41,6 +40,7 @@ h1 {
   margin: auto;
   padding-top: 150px;
   font-size: 5em;
+  font-weight: bolder;
 }
 .App-logo {
   height: 80px;
