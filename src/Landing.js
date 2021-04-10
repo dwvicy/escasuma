@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 
 const Landing = () => {
   return (
@@ -11,7 +12,9 @@ const Landing = () => {
         </p>
       </main>
       <div className="inline">
-        <div className="containz"> Take your meme test </div>
+        <div className="containz">
+          <Link to="/quiz">Take your meme test</Link>
+        </div>
       </div>
     </div>
   )
