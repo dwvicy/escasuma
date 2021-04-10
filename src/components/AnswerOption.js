@@ -14,9 +14,11 @@ function AnswerOption(props) {
         disabled={props.answer}
         onChange={props.onAnswerSelected}
       />
-      <label className="radioCustomLabel" htmlFor={props.answerType}>
-        {props.answerContent}
-      </label>
+      <img
+        src={props.answerContent}
+        className="radioCustomLabel"
+        htmlFor={props.answerType}
+      ></img>
     </li>
   )
 }

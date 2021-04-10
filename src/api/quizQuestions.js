@@ -3,19 +3,19 @@ var quizQuestions = [
     question: "Which Game of Thrones Character do you love the most?",
     answers: [
       {
-        type: "Microsoft",
+        type: "Bold and Sassy",
         content: "Sansa Stark",
       },
       {
-        type: "Nintendo",
+        type: "Classy and Sophisticated",
         content: "Khaleesi",
       },
       {
-        type: "Sony",
+        type: "Bohemian and Romantic",
         content: "Jon Snow",
       },
       {
-        type: "Myntra",
+        type: "Sporty and Comfy",
         content: "Red Woman",
       },
     ],
