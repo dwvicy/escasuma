@@ -32,6 +32,7 @@ body {
   margin: 0 auto;
   background: #fff;
   border-radius: 3px;
+  color: black;
 }
 
 @media (min-width: 769px) {
@@ -49,7 +50,7 @@ body {
 .answerOptions {
   margin: 0;
   padding: 0;
-  list-style: none;
+  flex-flow: row;
 }
 
 /* QuestionCount Component */
@@ -62,11 +63,13 @@ body {
 .question {
   margin: 0;
   padding: 0.5rem 2.5rem 1.5rem 2.5rem;
+  color: black;
 }
 
 /* AnswerOption Component */
 .answerOption {
   border-top: 1px solid #eee;
+  flex-shrink: inherit;
 }
 
 .answerOption:hover {
@@ -88,7 +91,8 @@ body {
 
 .radioCustomLabel {
   position: relative;
-  width: 100%;
+  width: auto;
+  height: 300px;
   margin: 0;
   padding: 1.5rem 2.5rem 1.5rem 5rem;
   font-size: 16px;

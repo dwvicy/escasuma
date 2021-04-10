@@ -18,7 +18,7 @@ function Quiz(props) {
     )
   }
   return (
-    <div className="quiz">
+    <div className="container">
       <QuestionCount counter={props.questionId} total={props.questionTotal} />
       <Question content={props.question} />
       <ul className="answerOptions">

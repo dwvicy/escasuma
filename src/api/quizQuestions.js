@@ -1,107 +1,149 @@
 var quizQuestions = [
   {
-    question: "Which Game of Thrones Character do you love the most?",
+    question: "What's more important? Financial security or seizing the day?",
     answers: [
       {
         type: "Bold and Sassy",
-        content: "Sansa Stark",
+        content: "https://i.imgur.com/ceOXqYG.jpg",
       },
       {
         type: "Classy and Sophisticated",
-        content: "Khaleesi",
+        content: "https://i.imgur.com/QGUXMcE.jpg",
       },
       {
         type: "Bohemian and Romantic",
-        content: "Jon Snow",
+        content: "https://i.imgur.com/HvhwqRO.jpg",
       },
       {
         type: "Sporty and Comfy",
-        content: "Red Woman",
+        content: "https://i.imgur.com/vIPsLhy.jpg",
       },
     ],
   },
   {
-    question: "Which console would you prefer to play with friends?",
+    question: "Choose your aesthetic.",
     answers: [
       {
-        type: "Microsoft",
-        content: "X-Box",
+        type: "Bold and Sassy",
+        content: "https://i.imgur.com/tBEyyUu.png",
       },
       {
-        type: "Nintendo",
-        content: "Nintendo 64",
+        type: "Classy and Sophisticated",
+        content: "https://i.imgur.com/n1H7f1z.png",
       },
       {
-        type: "Sony",
-        content: "Playstation 1",
+        type: "Bohemian and Romantic",
+        content: "https://i.imgur.com/afJ5Bmr.png",
       },
       {
-        type: "Myntra",
-        content: "Purse",
+        type: "Sporty and Comfy",
+        content: "https://i.imgur.com/iTSiOr7.png",
+      },
+    ],
+  },
+  {
+    question: "What's one trend you'd love to try?",
+    answers: [
+      {
+        type: "Bold and Sassy",
+        content: "https://i.imgur.com/M8TnVWq.png",
+      },
+      {
+        type: "Classy and Sophisticated",
+        content: "https://i.imgur.com/AiDmHhu.png",
+      },
+      {
+        type: "Bohemian and Romantic",
+        content: "https://i.imgur.com/p5qJ6bX.png",
+      },
+      {
+        type: "Sporty and Comfy",
+        content: "https://i.imgur.com/cWRl9LN.png",
+      },
+    ],
+  },
+  {
+    question: "Which typography (font) do you like out of these?",
+    answers: [
+      {
+        type: "Bold and Sassy",
+        content: "https://i.imgur.com/f1YG4ZQ.png",
+      },
+      {
+        type: "Classy and Sophisticated",
+        content: "https://i.imgur.com/hoDZPbw.jpg",
+      },
+      {
+        type: "Bohemian and Romantic",
+        content: "https://i.imgur.com/hahPYeO.jpg",
+      },
+      {
+        type: "Sporty and Comfy",
+        content: "https://i.imgur.com/UqT8iTg.jpg",
+      },
+    ],
+  },
+  {
+    question: "Which of the fashion quotes do you relate to most?",
+    answers: [
+      {
+        type: "Bold and Sassy",
+        content: "https://i.imgur.com/AnupA3w.jpg",
+      },
+      {
+        type: "Classy and Sophisticated",
+        content: "https://i.imgur.com/In7RsXc.jpg",
+      },
+      {
+        type: "Bohemian and Romantic",
+        content: "https://i.imgur.com/1OLRNVI.jpg",
+      },
+      {
+        type: "Sporty and Comfy",
+        content: "https://i.imgur.com/WUUWajA.jpg",
+      },
+    ],
+  },
+  {
+    question: "Which of these is your vibe?",
+    answers: [
+      {
+        type: "Bold and Sassy",
+        content: "https://i.imgur.com/oVctV4E.jpg",
+      },
+      {
+        type: "Classy and Sophisticated",
+        content: "https://i.imgur.com/USrb90P.jpg",
+      },
+      {
+        type: "Bohemian and Romantic",
+        content: "https://i.imgur.com/B5SrZvP.jpg",
+      },
+      {
+        type: "Sporty and Comfy",
+        content: "https://i.imgur.com/rxeVbPo.jpg",
       },
     ],
   },
   {
     question:
-      "Which of these racing franchises would you prefer to play a game from?",
+      "The seasons are a time for fashion. Which season lets your rock your hottest looks?",
     answers: [
       {
-        type: "Microsoft",
-        content: "Forza",
+        type: "Bold and Sassy",
+        content: "https://i.imgur.com/izlrsGJ.png",
       },
       {
-        type: "Nintendo",
-        content: "Mario Kart",
+        type: "Classy and Sophisticated",
+        content: "https://i.imgur.com/PTPJFZn.png",
       },
       {
-        type: "Sony",
-        content: "Gran Turismo",
+        type: "Bohemian and Romantic",
+        content: "https://i.imgur.com/fSNWA6Q.png",
       },
       {
-        type: "Myntra",
-        content: "Purse",
-      },
-    ],
-  },
-  {
-    question: "Which of these games do you think is best?",
-    answers: [
-      {
-        type: "Microsoft",
-        content: "BioShock",
-      },
-      {
-        type: "Nintendo",
-        content: "The Legend of Zelda: Ocarina of Time",
-      },
-      {
-        type: "Sony",
-        content: "Final Fantasy VII",
-      },
-      {
-        type: "Myntra",
-        content: "Purse",
-      },
-    ],
-  },
-  {
-    question: "What console would you prefer to own?",
-    answers: [
-      {
-        type: "Microsoft",
-        content: "X-Box One",
-      },
-      {
-        type: "Nintendo",
-        content: "Wii U",
-      },
-      {
-        type: "Sony",
-        content: "Playstation 4",
-      },
-      {
-        type: "Myntra",
-        content: "Purse",
+        type: "Sporty and Comfy",
+        content: "https://i.imgur.com/fXxuGom.png",
       },
     ],
   },
