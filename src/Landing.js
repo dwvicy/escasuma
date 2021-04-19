@@ -12,7 +12,7 @@ const Landing = () => {
 
       <div className="inline">
         <div className="containz">
-          <Link to="/quiz">Take your meme test</Link>
+          <Link to="/quiz">Find your style, take the quiz!</Link>
         </div>
       </div>
     </div>
