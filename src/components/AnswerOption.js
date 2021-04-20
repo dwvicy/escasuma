@@ -15,7 +15,7 @@ function AnswerOption(props) {
           disabled={props.answer}
           onChange={props.onAnswerSelected}
           src={props.answerContent}
-          height="48"
+          height="50"
         ></input>
         <img
           src={props.answerContent}

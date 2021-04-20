@@ -51,20 +51,16 @@ h1 {
   font-weight: bolder;
   font-family: "Poppins", sans-serif;
 }
-.App-logo {
-  height: 80px;
-}
 
 .App-header {
   background-color: #fff;
-  padding: 20px;
+  padding: 5px;
   color: #000;
   text-align: center;
-  font-family: "Playfair Display", serif;
 }
 
 .App-intro {
-  font-size: large;
+  font-size: medium;
 }
 
 .a {
