@@ -1,6 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #e1e2ef;
+  background-color: #000;
 }
 
 .h1b {
@@ -58,6 +59,10 @@ body {
 
 h1 {
   margin-left: 1em;
+}
+
+p {
+  margin-left: 40px;
 }
 
 .p2b {
@@ -120,7 +125,8 @@ h1 {
   background-color: #fff;
   padding: 5px;
   color: #000;
-  text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .App-intro {

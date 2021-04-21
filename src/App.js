@@ -1,15 +1,21 @@
 import React from "react"
 
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
+import { BrowserRouter as Router, Route } from "react-router-dom"
 import Gender from "./Gender"
 import Landing from "./Landing"
 import Quizler from "./Quizler"
+import { AnimatedSwitch } from "react-router-transition"
 
 function App() {
   return (
     <div>
       <Router>
-        <Switch>
+        <AnimatedSwitch
+          atEnter={{ opacity: 0 }}
+          atLeave={{ opacity: 0 }}
+          atActive={{ opacity: 1 }}
+          className="switch-wrapper"
+        >
           <Route path="/gen">
             <Gender />
           </Route>
@@ -19,7 +25,7 @@ function App() {
           <Route path="/">
             <Landing />
           </Route>
-        </Switch>
+        </AnimatedSwitch>
       </Router>
     </div>
   )

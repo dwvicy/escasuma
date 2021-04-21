@@ -3,6 +3,7 @@ import quizQuestions from "./api/quizQuestions"
 import Quiz from "./components/Quiz"
 import Result from "./components/Result"
 import "./App.css"
+import "./index.css"
 
 class Quizler extends Component {
   constructor(props) {
@@ -120,11 +121,18 @@ class Quizler extends Component {
 
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <h2 className="lmao">Escasuma Personality Quiz</h2>
+      <div>
+        <div className="App">
+          <div className="App-header">
+            <img
+              src="https://i.imgur.com/0Ay7sqG.png"
+              alt="escasuma+myntra"
+              className="logo-quiz"
+            />
+            <h2 className="lmao">Escasuma Personality Quiz</h2>
+          </div>
+          {this.state.result ? this.renderResult() : this.renderQuiz()}
         </div>
-        {this.state.result ? this.renderResult() : this.renderQuiz()}
       </div>
     )
   }

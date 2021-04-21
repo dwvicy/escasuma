@@ -21,6 +21,7 @@ function Quiz(props) {
     <div className="container">
       <QuestionCount counter={props.questionId} total={props.questionTotal} />
       <Question content={props.question} />
+      <p>Choose one of the options below</p>
       <ul className="answerOptions">
         {props.answerOptions.map(renderAnswerOptions)}
       </ul>
