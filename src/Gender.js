@@ -1,8 +1,9 @@
+import "./App.css"
 import React from "react"
-import { Link } from "react-router-dom"
 import { Particles } from "react-tsparticles"
+import { Link } from "react-router-dom"
 
-const Landing = () => {
+const Gender = () => {
   return (
     <div>
       <Particles
@@ -86,23 +87,31 @@ const Landing = () => {
           detectRetina: true,
         }}
       />
-      <main className="box">
-        <img
-          src="https://i.imgur.com/0Ay7sqG.png"
-          alt="escasuma+myntra"
-          className="logo"
-        />
-        <h2 className="h2b">Escasuma</h2>
-        <p className="p2b">
-          Your personal memey stylist. <br></br>Find your style in seconds. Shop on
-          Myntra. Dazzle every occasion.
-        </p>
+      <main>
+        <div className="box">
+          <img
+            src="https://i.imgur.com/0Ay7sqG.png"
+            alt="escasuma+myntra"
+            className="logo"
+          />
+          <h2 className="h1b">Choose your gender</h2>
+          <div className="buttonbox">
+            <button className="button">
+              <Link to="/quiz" className="a">
+                <span>Woman</span>
+              </Link>
+            </button>
 
-        <div className="inline">
-          <div className="containz">
-            <Link to="/gen" className="a">
-              FIND YOUR STYLE NOW
-            </Link>
+            <button className="button">
+              <Link to="/quiz" className="a">
+                <span>Man</span>
+              </Link>
+            </button>
+            <button className="button">
+              <Link to="/quiz" className="a">
+                <span>Other</span>
+              </Link>
+            </button>
           </div>
         </div>
       </main>
@@ -110,4 +119,4 @@ const Landing = () => {
   )
 }
 
-export default Landing
+export default Gender

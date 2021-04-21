@@ -3,6 +3,59 @@ body {
   color: #e1e2ef;
 }
 
+.h1b {
+  text-align: center;
+}
+
+.buttonbox {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  background-color: #ffe8d6;
+  border-radius: 5px;
+  border-width: 0 0 5px 5px;
+  font-size: large;
+  margin: 1em;
+  padding: 3%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #fdb0ac;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover {
+  border-color: #ff6b6b;
+  background-color: beige;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 h1 {
   margin-left: 1em;
 }
