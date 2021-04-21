@@ -87,6 +87,11 @@ const Landing = () => {
         }}
       />
       <main className="box">
+        <img
+          src="https://i.imgur.com/0Ay7sqG.png"
+          alt="escasuma+myntra"
+          className="logo"
+        />
         <h2 className="h2b">Escasuma</h2>
         <p className="p2b">
           Your personal memey stylist. <br></br>Find your style in seconds. Shop on

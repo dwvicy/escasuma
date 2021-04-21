@@ -20,6 +20,21 @@ code {
   font-family: "Poppins", sans-serif;
 }
 
+.logo {
+  margin-top: 4em;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 70%;
+  width: 90%;
+  align-self: center;
+}
+@media (min-width: 769px) {
+  .logo {
+    width: 40%;
+  }
+}
+
 body {
   margin: 0;
   padding: 0;
