@@ -4,82 +4,82 @@ var quizQuestions = [
     answers: [
       {
         type: "Bold and Sassy",
-        content: "https://i.imgur.com/ceOXqYG.jpg",
+        content: "https://i.imgur.com/9kQw4jE.png",
       },
       {
         type: "Classy and Sophisticated",
-        content: "https://i.imgur.com/QGUXMcE.jpg",
+        content: "https://i.imgur.com/QiPPaMc.png",
       },
       {
         type: "Bohemian and Romantic",
-        content: "https://i.imgur.com/HvhwqRO.jpg",
+        content: "https://i.imgur.com/m3Fb039.png",
       },
       {
         type: "Sporty and Comfy",
-        content: "https://i.imgur.com/vIPsLhy.jpg",
+        content: "https://i.imgur.com/V88Lc9k.png",
       },
     ],
   },
   {
-    question: "Choose your aesthetic.",
+    question: "Which of these bizarre trends are you most likely to try?",
     answers: [
       {
         type: "Bold and Sassy",
-        content: "https://i.imgur.com/tBEyyUu.png",
+        content: "https://i.imgur.com/I10GUSs.png",
       },
       {
         type: "Classy and Sophisticated",
-        content: "https://i.imgur.com/n1H7f1z.png",
+        content: "https://i.imgur.com/bnJtuPJ.png",
       },
       {
         type: "Bohemian and Romantic",
-        content: "https://i.imgur.com/afJ5Bmr.png",
+        content: "https://i.imgur.com/nggn4gn.png",
       },
       {
         type: "Sporty and Comfy",
-        content: "https://i.imgur.com/iTSiOr7.png",
+        content: "https://i.imgur.com/sOBmLzp.png",
       },
     ],
   },
   {
-    question: "What's one trend you'd love to try?",
+    question: "Which of these BFF memes do you relate to?",
     answers: [
       {
         type: "Bold and Sassy",
-        content: "https://i.imgur.com/M8TnVWq.png",
+        content: "https://i.imgur.com/5IXLuVD.png",
       },
       {
         type: "Classy and Sophisticated",
-        content: "https://i.imgur.com/AiDmHhu.png",
+        content: "https://i.imgur.com/R4nSWsY.png",
       },
       {
         type: "Bohemian and Romantic",
-        content: "https://i.imgur.com/p5qJ6bX.png",
+        content: "https://i.imgur.com/86GYjhs.png",
       },
       {
         type: "Sporty and Comfy",
-        content: "https://i.imgur.com/cWRl9LN.png",
+        content: "https://i.imgur.com/QSKy3wX.png",
       },
     ],
   },
   {
-    question: "Which typography (font) do you like out of these?",
+    question: "Which of these fashion icons are you most likely to follow?",
     answers: [
       {
         type: "Bold and Sassy",
-        content: "https://i.imgur.com/f1YG4ZQ.png",
+        content: "https://i.imgur.com/EGUckTr.png",
       },
       {
         type: "Classy and Sophisticated",
-        content: "https://i.imgur.com/hoDZPbw.jpg",
+        content: "https://i.imgur.com/RYzJwd6.png",
       },
       {
         type: "Bohemian and Romantic",
-        content: "https://i.imgur.com/hahPYeO.jpg",
+        content: "https://i.imgur.com/TH0DGZO.png",
       },
       {
         type: "Sporty and Comfy",
-        content: "https://i.imgur.com/UqT8iTg.jpg",
+        content: "https://i.imgur.com/WBLeSFW.png",
       },
     ],
   },
@@ -88,19 +88,19 @@ var quizQuestions = [
     answers: [
       {
         type: "Bold and Sassy",
-        content: "https://i.imgur.com/AnupA3w.jpg",
+        content: "https://i.imgur.com/ybeSIfm.png",
       },
       {
         type: "Classy and Sophisticated",
-        content: "https://i.imgur.com/In7RsXc.jpg",
+        content: "https://i.imgur.com/QjscNIT.png",
       },
       {
         type: "Bohemian and Romantic",
-        content: "https://i.imgur.com/1OLRNVI.jpg",
+        content: "https://i.imgur.com/SXLz6X2.png",
       },
       {
         type: "Sporty and Comfy",
-        content: "https://i.imgur.com/WUUWajA.jpg",
+        content: "https://i.imgur.com/dg5hDTz.png",
       },
     ],
   },
@@ -109,41 +109,40 @@ var quizQuestions = [
     answers: [
       {
         type: "Bold and Sassy",
-        content: "https://i.imgur.com/oVctV4E.jpg",
+        content: "https://i.imgur.com/aRtuwIe.png",
       },
       {
         type: "Classy and Sophisticated",
-        content: "https://i.imgur.com/USrb90P.jpg",
+        content: "https://i.imgur.com/Yo4TrJL.png",
       },
       {
         type: "Bohemian and Romantic",
-        content: "https://i.imgur.com/B5SrZvP.jpg",
+        content: "https://i.imgur.com/kaGBFEU.png",
       },
       {
         type: "Sporty and Comfy",
-        content: "https://i.imgur.com/rxeVbPo.jpg",
+        content: "https://i.imgur.com/P05AIKz.png",
       },
     ],
   },
   {
-    question:
-      "The seasons are a time for fashion. Which season lets your rock your hottest looks?",
+    question: "Which doggo represents your aesthetic?",
     answers: [
       {
         type: "Bold and Sassy",
-        content: "https://i.imgur.com/izlrsGJ.png",
+        content: "https://i.imgur.com/69BCS8g.png",
       },
       {
         type: "Classy and Sophisticated",
-        content: "https://i.imgur.com/PTPJFZn.png",
+        content: "https://i.imgur.com/KXJG3U7.png",
       },
       {
         type: "Bohemian and Romantic",
-        content: "https://i.imgur.com/fSNWA6Q.png",
+        content: "https://i.imgur.com/NGa4K4O.png",
       },
       {
         type: "Sporty and Comfy",
-        content: "https://i.imgur.com/fXxuGom.png",
+        content: "https://i.imgur.com/C1DYJ46.png",
       },
     ],
   },

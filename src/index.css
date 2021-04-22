@@ -57,13 +57,13 @@ body {
   background: #fff;
   border-radius: 3px;
   color: black;
-  margin: 2.5rem auto;
+  margin: 1.5rem auto;
 }
 
 @media (min-width: 769px) {
   .container {
     margin: 2.5rem auto;
-    width: 60%;
+    width: 50%;
   }
 }
 
@@ -79,11 +79,11 @@ body {
 /* Quiz Component */
 .answerOptions {
   margin: auto;
-  padding: 10;
+
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 0.5fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 0.5fr));
   grid-auto-rows: minmax(200px, auto);
-  grid-gap: 20px;
+  grid-gap: 10px;
 }
 
 /* QuestionCount Component */
@@ -95,14 +95,14 @@ body {
 /* Question Component */
 .question {
   margin: 0;
-  padding: 0.5rem 2.5rem 1.5rem 2.5rem;
+  padding: 0.5rem 2.5rem 0.2em 2.5rem;
   color: black;
 }
 
 /* AnswerOption Component */
 .answerOption {
   border-top: 1px solid #eee;
-  flex-shrink: 2;
+  list-style-type: none;
 }
 
 .answerOption:hover {
@@ -110,10 +110,7 @@ body {
 }
 
 .radioCustomButton {
-  position: absolute;
-
-  width: auto;
-  opacity: 0;
+  transform: scale(2);
 }
 
 .radioCustomButton,
@@ -126,11 +123,15 @@ body {
 .radioCustomLabel {
   position: relative;
   width: 300px;
-  height: 200px;
+  height: 250px;
   margin: 0;
-  padding: 1.5rem 2.5rem 1.5rem 5rem;
+  padding: 10px;
   font-size: 16px;
   line-height: 1.5;
+}
+
+.radioCustomButton:checked {
+  background-color: #8bc53f;
 }
 
 .radioCustomButton ~ .radioCustomLabel:before {
@@ -143,16 +144,9 @@ body {
   display: inline-block;
   vertical-align: middle;
   background: #000;
-  border: 1px solid #bbb;
+  border: 1px solid #8bc53f;
   border-radius: 50%;
   transition: all 0.3s;
-}
-
-.radioCustomButton:checked ~ .radioCustomLabel:before {
-  content: "";
-  background: #8bc53f url(https://i.imgur.com/XteVjb5.jpg) no-repeat;
-  background-size: 27px;
-  border-color: #8bc53f;
 }
 
 /* Animation */
