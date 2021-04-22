@@ -36,14 +36,18 @@ code {
 }
 
 .logo-quiz {
-  width: 10%;
+  width: 30%;
+}
+@media (min-width: 769px) {
+  .logo-quiz {
+    width: 10%;
+  }
 }
 
 body {
   margin: 0;
   padding: 0;
   background: #eee;
-  font-family: "Poppins", sans-serif;
 }
 
 .container {
@@ -53,6 +57,7 @@ body {
   background: #fff;
   border-radius: 3px;
   color: black;
+  margin: 2.5rem auto;
 }
 
 @media (min-width: 769px) {
@@ -60,6 +65,10 @@ body {
     margin: 2.5rem auto;
     width: 60%;
   }
+}
+
+.lmao {
+  font-size: 100%;
 }
 
 /* Result Component */
